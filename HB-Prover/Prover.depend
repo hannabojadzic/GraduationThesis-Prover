@@ -67,3 +67,38 @@
 	<fstream>
 	"prover.h"
 
+1537235127 source:c:\users\wetan\desktop\zavrsni\gitz\hb-prover\prover.cpp
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+	"prover.h"
+
+1537232632 c:\users\wetan\desktop\zavrsni\gitz\hb-prover\prover.h
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+
+1537234917 source:c:\users\wetan\desktop\zavrsni\gitz\hb-prover\test.cpp
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+	"prover.h"
+

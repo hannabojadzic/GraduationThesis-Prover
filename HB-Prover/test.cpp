@@ -46,6 +46,20 @@ pair<vector<string>,int> lexTest(string inp) {
 
 int main()
 {
+
+    char filename[ ] = "out.txt";
+     fstream appendFileToWorkWith;
+
+     appendFileToWorkWith.open(filename, std::fstream::in | std::fstream::out );
+
+        bool postoji = true;
+     // If file does not exist, Create new file
+      if (!appendFileToWorkWith )
+      {
+        appendFileToWorkWith.open(filename,  fstream::in | fstream::out | fstream::trunc);
+          postoji = false;
+
+       }
 Prover *p = new Prover();
     try {
         ifstream infile;
@@ -57,6 +71,15 @@ Prover *p = new Prover();
             pair<vector<string>,int> tokens = lexTest(STRING);
             pair<pair<bool,int>,int> result = p->proveFormulatest(tokens.first);
             if (result.first.first) {
+                if(postoji == false) {
+                        cout < "HDWODWOEJDPOWQPDOKP\nDODPKQOWKPO\nkfwoekpfwo";
+                    appendFileToWorkWith << "\n Formula: " << STRING;
+                    appendFileToWorkWith << "\nFormula proven";
+                    appendFileToWorkWith << "\n" << "Dubina stabla: "  << result.first.second;
+                    appendFileToWorkWith << "\n" << "Broj koraka izvrsavanja: " << result.second;
+                    appendFileToWorkWith << "\n" << "Broj operatora i literala u formuli: " <<tokens.second << "\n";
+
+                }
                 cout << "\nFormula proven\n";
                 cout << "\n" << "Dubina stabla: "  << result.first.second;
                 cout << "\n" << "Broj koraka izvršavanja: " << result.second;
@@ -66,6 +89,9 @@ Prover *p = new Prover();
                 cout << "\nFormula unprovable\n";
             }
             cout << "\n\n";
+        }
+        if(postoji == false) {
+             appendFileToWorkWith.close();
         }
     }
     catch(string e){
