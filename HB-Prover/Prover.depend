@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1536716662 source:c:\users\wetan\desktop\zavrsni\prover\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+
+1537234547 source:c:\users\wetan\desktop\zavrsni\prover - copy (2)\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+	"prover.h"
+
+1537232632 c:\users\wetan\desktop\zavrsni\prover - copy (2)\prover.h
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+
+1537228592 c:\users\wetan\desktop\zavrsni\prover - copy (2)\prover.cpp
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+
+1537235127 source:c:\users\wetan\desktop\zavrsni\prover - copy (2)\prover.cpp
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+	"prover.h"
+
+1537232508 source:c:\users\wetan\desktop\zavrsni\prover - copy (2)\test.cpp
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<sstream>
+	<memory>
+	<chrono>
+	<thread>
+	<fstream>
+	"prover.h"
+

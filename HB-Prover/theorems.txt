@@ -1,0 +1,75 @@
+P or not P
+(x or y) and (not y or z) implies (x or z)
+x and (x implies y) implies y
+(x or y) and not x implies y
+(x implies z) and (y implies w) and (x or y) implies z or w
+(p implies q) implies (p implies (p and q) )
+((p implies q) and (q implies p)) implies (p implies q)
+forall x. (x implies x)
+not (p and not p)
+(p and q) implies (q and p)
+(p and q) implies p
+(not a implies a) implies a
+(not not a or a) implies a
+(((p implies q) and (r implies s)) and (p or r)) implies (q or s)
+((p implies q) and not q) implies not p
+(p implies q) implies (not p or q)
+(p implies q) and p implies q
+(not(a and b) and a) implies not b
+(p implies q) and not q implies not p
+not(p and q) implies (not p or not q)
+not(p or q) implies (not p or not q)
+not(p or q) implies (not p and not q)
+(((p implies q) and (r implies s)) and (not q or not s)) implies (not p or not r)
+(((p implies q) and (r implies q)) and (p and r)) implies q
+p implies (p or q)
+((p or q) and not p) implies q
+p implies not not p
+not not p implies p
+((p implies q) implies p) implies p
+forall p. (p or not p)
+p and not p implies e
+(p implies (q implies r)) implies ((p implies q) implies (p implies r))
+p and p implies p
+p or p implies p
+((p implies q)and (q implies r)) implies (p implies r)
+(p implies q) implies (not q implies not p)
+forall x. P(x) implies (Q(x) implies P(x))
+not possibly (p or q) implies (not possibly p and not possibly q)
+possibly(p and q) implies (possibly p and possibly q)
+necessarily p implies necessarily (p implies q)
+necessarily not p implies necessarily (p implies q)
+necessarily p implies necessarily (q implies p)
+(necessarily (p implies q) and necessarily(p implies not q)) implies necessarily (p implies not p)
+(necessarily p and necessarily q) implies necessarily (p and q)
+(necessarily p or necessarily q) implies necessarily (p or q)
+(necessarily (p implies q) and necessarily(q implies r)) implies necessarily (p implies r)
+(necessarily (p implies q) and possibly (p and r)) implies possibly (q and r)
+possibly p implies (necessarily q implies possibly q)
+possibly(p implies (q and r)) implies ((necessarily p implies possibly q) and (necessarily p implies possibly r))
+(not necessarily possibly necessarily p implies possibly necessarily possibly not p) and (possibly necessarily possibly not p implies not necessarily possibly necessarily p)
+(necessarily(not p implies p) implies necessarily p) and (necessarily p implies necessarily(not p implies p))
+(possibly(p or q) implies (possibly p or possibly q)) and ((possibly p or possibly q) implies possibly (p or q))
+necessarily necessarily p implies necessarily possibly p
+necessarily necessarily p implies possibly possibly p
+necessarily p implies possibly ( q implies p)
+not necessarily (p and not p)
+(necessarily p and necessarily (p implies q)) implies possibly q
+possibly (( (p implies q) implies p) implies p)
+not necessarily (necessarily (p and q) and necessarily (p implies not q))
+(possibly not p or possibly not q) or possibly (p or q)
+necessarily p implies necessarily possibly p
+possibly necessarily p implies possibly ( p or q)
+(necessarily p and possibly necessarily (p implies q)) implies possibly q
+possibly (p implies necessarily q) implies (necessarily p implies possibly q)
+exists p. p implies p
+exists p. (p and q) implies p
+forall p. (necessarily not p implies necessarily (p implies q))
+forall p. not necessarily (p and not p)
+exists p. ((p implies q) implies p) implies p
+exists p. (p implies q) and q implies p
+forall p. necessarily p implies necessarily possibly p
+forall x. necessarily necessarily p implies possibly possibly p
+forall x. P(x) and P(x) implies P(x)
+forall x. P(x) implies not not P(x)
+forall x. not necessarily (P(x) and not P(x))
